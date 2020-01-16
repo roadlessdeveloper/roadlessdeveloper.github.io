@@ -1,6 +1,4 @@
-# end2end Clean Jekyll theme [![Build Status](https://travis-ci.org/nandomoreirame/end2end.svg?branch=master)](https://travis-ci.org/nandomoreirame/end2end)
-
-
+# end2end Clean Jekyll theme
 
 * [x] Clean layout
 * [x] Resposive layout
@@ -15,14 +13,15 @@
 
 ---
 
-### Start in 4 steps
+### How to start
 
-1. Download or clone repo `git clone git@github.com:nandomoreirame/end2end.git`
-2. Enter the folder: `cd end2end/`
+1. Download or clone repo `git clone git@github.com:roadlessdeveloper/roadlessdeveloper.github.io.git`
+2. Change branch `git checkout site-src`
+2. Enter the folder: `cd roadlessdeveloper.github.io/`
 3. Install Ruby gems: `bundle install`
 4. Start Jekyll server: `bundle exec jekyll serve`
 
-Access, [localhost:4000/end2end](http://localhost:4000/end2end)
+Access, [localhost:4000](http://localhost:4000/)
 
 ### Deploy in Github pages in 2 steps
 
@@ -35,15 +34,6 @@ Access, [localhost:4000/end2end](http://localhost:4000/end2end)
 
 * Create a new page: `rake page name="contact.md"`
 * Create a new post: `rake post title="TITLE OF THE POST"`
-
----
-
-### Demo and Download
-
-[Demo](https://nandomoreirame.github.io/end2end/)
-[Download](https://github.com/nandomoreirame/end2end/archive/master.zip)
-
-![end2end - free Jekyll theme](/screenshot.png)
 
 ---
 
