@@ -1,0 +1,55 @@
+# Build settings
+permalink: /blog/:year/:title/
+markdown: kramdown
+highlighter: pygments
+plugins: [jekyll-paginate-v2]
+
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: "/page/:num/"
+
+comments: true
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: compressed # expanded
+
+# SEO settings
+title: Roadless Developer
+description: "A free Jekyll theme for download"
+keywords: "Jekyll, theme, free, download, SEO, blog, web"
+url: http://roadlessdeveloper.github.io
+baseurl: ""
+
+google_analytics: UA-156347700-1
+repo: https://github.com/roadlessdeveloper
+disqus_shortname: "roadlessdeveloper"
+disqus_site_shortname: "roadlessdeveloper"
+
+# Author settings
+author:
+  name: Carlos
+  job: Backend Developer
+  bio: "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
+  thumb: /images/author.jpg
+  email: roadlessdeveloper@gmail.com
+  url: https://roadlessdeveloper.github.io/
+  github: https://github.com/roadlessdeveloper
+  twitter: https://twitter.com/urtubeyc
+  linkedin: https://www.linkedin.com/in/carlos-urtubey/
+
+# navbar pages
+navbar:
+  - slug: 
+    title: Inicio
+  - slug: blog
+    title: Blog
+  - slug: about
+    title: Sobre mí
+  - slug: contact
+    title: Contacto
+
+exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
