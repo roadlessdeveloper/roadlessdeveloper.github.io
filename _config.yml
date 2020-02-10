@@ -19,8 +19,8 @@ sass:
 
 # SEO settings
 title: Roadless Developer
-description: "A free Jekyll theme for download"
-keywords: "Jekyll, theme, free, download, SEO, blog, web"
+description: "Blog sobre desarrollo de software y/o buenas prácticas para programar"
+keywords: "blog, web, programacion, progrmación, desarrollo, dev, desarrollador, buenas practicas programación, buenas practicas programacion, buenas practicas desarrollo de software, desarrollo de software"
 url: http://roadlessdeveloper.github.io
 baseurl: ""
 
@@ -32,8 +32,8 @@ disqus_site_shortname: "roadlessdeveloper"
 # Author settings
 author:
   name: Carlos
-  job: Backend Developer
-  bio: "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
+  job: Backend Developer y aspirador a Project Manager
+  bio: Programador políglota. Desarrollador de software a medida, entusiasta por las buenas prácticas y una óptima performance, siempre buscando un balance adecuado entre esto último y un código limpio... Además de un buen café ☕.
   thumb: /images/author.jpg
   email: roadlessdeveloper@gmail.com
   url: https://roadlessdeveloper.github.io/
