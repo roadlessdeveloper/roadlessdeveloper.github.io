@@ -32,14 +32,16 @@ disqus_site_shortname: "roadlessdeveloper"
 # Author settings
 author:
   name: Carlos
-  job: Backend Developer y aspirador a Project Manager
-  bio: Programador políglota. Desarrollador de software a medida, entusiasta por las buenas prácticas y una óptima performance, siempre buscando un balance adecuado entre esto último y un código limpio... Además de un buen café ☕.
+  job: Full Stack Developer y aspirante a Project Manager
+  bio: Programador políglota. Desarrollador de software a medida, entusiasta por encontrar el balance entre un código limpio y una óptima performance... Además de un buen café ☕ ☜(ﾟヮﾟ☜).
   thumb: /images/author.jpg
   email: roadlessdeveloper@gmail.com
   url: https://roadlessdeveloper.github.io/
   github: https://github.com/roadlessdeveloper
   twitter: https://twitter.com/urtubeyc
   linkedin: https://www.linkedin.com/in/carlos-urtubey/
+
+blog-resume: En este blog encontrarás tutoriales y/o articulos sobre programación con un poco de humor para hacerlo más ameno. Si no te gustan los memes y el típico humor de mierda CTRL+W es la solución a tus problemas ;D.
 
 # navbar pages
 navbar:
