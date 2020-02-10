@@ -10,3 +10,8 @@ categories:
 tags:
 
 ---
+
+Hola, bienvenidos al primer post de mi blog... Empezaremos por hablar de Pygame 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMzAxODkxNzQ1XX0=
+-->
