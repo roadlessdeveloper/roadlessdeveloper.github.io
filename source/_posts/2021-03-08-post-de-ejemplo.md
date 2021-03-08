@@ -5,7 +5,7 @@ date: 2021-03-09 01:57:38
 comments: true
 description: "Post de ejemplo"
 keywords: ""
-categories:
+category: Bienvenida
 
 tags:
 
