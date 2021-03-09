@@ -13,7 +13,11 @@ tags:
 
 **Lorem Ipsum** is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
+    print("Hello world")
+	if(condition):
+		print(condition)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0ODI2NDYwMCw5OTgxMjU4MDQsMTA1Mz
-Y2OTk1MCwzNzg4MDk3NTZdfQ==
+eyJoaXN0b3J5IjpbLTI2MDY5NDQ3OCwtNTQ4MjY0NjAwLDEwNT
+M2Njk5NTAsMzc4ODA5NzU2XX0=
 -->
