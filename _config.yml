@@ -19,7 +19,7 @@ sass:
 
 # SEO settings
 title: Roadless Developer
-description: "Blog sobre desarrollo de software y/o buenas prácticas para programar"
+description: "Blog sobre desarrollo de software"
 keywords: "blog, web, programacion, progrmación, desarrollo, dev, desarrollador, buenas practicas programación, buenas practicas programacion, buenas practicas desarrollo de software, desarrollo de software"
 url: http://roadlessdeveloper.github.io
 baseurl: ""
@@ -32,7 +32,7 @@ disqus_site_shortname: "roadlessdeveloper"
 # Author settings
 author:
   name: Carlos
-  job: Full Stack Developer y aspirante a Project Manager
+  job: Backend Developer y aspirante a Project Manager
   bio: Programador políglota. Desarrollador de software a medida, entusiasta por encontrar el balance entre un código limpio y una óptima performance... Además de un buen café ☕ ☜(ﾟヮﾟ☜).
   thumb: /images/author.jpg
   email: roadlessdeveloper@gmail.com
