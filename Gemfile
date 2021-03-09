@@ -22,7 +22,7 @@ group :jekyll_plugins do
   gem "bourbon", "~>4.3"
   gem "jekyll-feed", "~>0.6"
   gem "jekyll-paginate-v2"
-  gem "pygments.rb"
   gem "jekyll-compose"
   gem "kramdown"
+  gem "rouge"
 end
