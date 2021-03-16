@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Contacto
-permalink: /contact/
 ---
 
 <!-- <form method="POST" action="https://roadlessdeveloper.herokuapp.com/contact"> -->
@@ -35,9 +34,9 @@ permalink: /contact/
                 return response.text();
             }).then( texto => {
                 if( texto == 'OK' )
-                    window.location = `${window.location.origin}/success`;
+                    window.location = `${window.location.origin}/contact/success`;
                 else
-                    window.location = `${window.location.origin}/error`;
+                    window.location = `${window.location.origin}/contact/error`;
             }).catch( error => {
                 window.location = `${window.location.origin}/error`;
             })
