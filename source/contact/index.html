@@ -7,13 +7,18 @@ title: Contacto
 <form>
     <div>
         <label for="email">Email</label>
-        <input type="email" name="from" id="from">
+        <input type="text" name="from" id="from" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" title="Ingrese un email valido" required>
         <label for="subject">Asunto</label>
-        <input type="text" name="subject" id="subject">
+        <input type="text" name="subject" id="subject" required>
         <label for="body">Mensaje</label>
-        <textarea name="body" id="body" cols="30" rows="10"></textarea>
+        <textarea name="body" id="body" cols="30" rows="10" required></textarea>
     </div>
     <div style="text-align: right;">
+        <div class="spinner" id="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
         <input name="submit" type="submit" value="Enviar">
     </div>    
 </form>
@@ -22,6 +27,7 @@ title: Contacto
         const form = document.querySelector('form');
         form.addEventListener('submit', (e) => {
             e.preventDefault();
+            document.getElementsByClassName("spinner")[0].style.display = "inline";
             let data = new FormData(form);
             fetch("https://roadlessdeveloper.herokuapp.com/contact", {
                 method: 'POST',
