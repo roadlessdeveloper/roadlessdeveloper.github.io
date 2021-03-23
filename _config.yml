@@ -1,7 +1,7 @@
 # Build settings
 permalink: /blog/:year/:title/
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 plugins: [jekyll-paginate-v2]
 
 pagination:
@@ -19,7 +19,7 @@ sass:
 
 # SEO settings
 title: Roadless Developer
-description: "Blog sobre desarrollo de software y/o buenas prácticas para programar"
+description: "Blog sobre desarrollo de software"
 keywords: "blog, web, programacion, progrmación, desarrollo, dev, desarrollador, buenas practicas programación, buenas practicas programacion, buenas practicas desarrollo de software, desarrollo de software"
 url: http://roadlessdeveloper.github.io
 baseurl: ""
@@ -32,16 +32,16 @@ disqus_site_shortname: "roadlessdeveloper"
 # Author settings
 author:
   name: Carlos
-  job: Full Stack Developer y aspirante a Project Manager
-  bio: Programador políglota. Desarrollador de software a medida, entusiasta por encontrar el balance entre un código limpio y una óptima performance... Además de un buen café ☕ ☜(ﾟヮﾟ☜).
+  job: Backend Developer y aspirante a Project Manager
+  bio: Programador políglota. Entusiasta por encontrar el balance entre un código limpio y una óptima performance... Además de un buen café ☕ ☜(ﾟヮﾟ☜).
   thumb: /images/author.jpg
-  email: roadlessdeveloper@gmail.com
+  email: urtubeycarlos.0510@gmail.com
   url: https://roadlessdeveloper.github.io/
-  github: https://github.com/roadlessdeveloper
+  github: https://github.com/urtubeycarlos
   twitter: https://twitter.com/urtubeyc
   linkedin: https://www.linkedin.com/in/carlos-urtubey/
 
-blog-resume: En este blog encontrarás tutoriales y/o articulos sobre programación con un poco de humor para hacerlo más ameno. Si no te gustan los memes y el típico humor de mierda CTRL+W es la solución a tus problemas ;D.
+blog-resume: En este blog encontrarás tutoriales y/o articulos sobre programación con un poco de humor para hacerlo más ameno.
 
 # navbar pages
 navbar:

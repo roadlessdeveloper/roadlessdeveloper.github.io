@@ -43,7 +43,7 @@ task :publish => [:generate] do
     system "git add ."
     message = "Site updated at #{Time.now.utc}"
     system "git commit -am #{message.inspect}"
-    system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
+    system "git remote add origin https://github.com/#{GITHUB_REPONAME}.git"
     system "git push origin #{GITHUB_REPO_BRANCH} --force"
 
     Dir.chdir pwd
@@ -92,8 +92,8 @@ task :post do
     post.puts "comments: true"
     post.puts "description: \"#{title}\""
     post.puts 'keywords: ""'
-    post.puts "categories:"
-    post.puts "#{categories}"
+    post.puts "category:"
+    #post.puts "#{categories}"
     post.puts "tags:"
     post.puts "#{tags}"
     post.puts "---"

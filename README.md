@@ -15,7 +15,7 @@
 
 ### How to start
 
-1. Download or clone repo `git clone git@github.com:roadlessdeveloper/roadlessdeveloper.github.io.git`
+1. Download or clone repo `git clone https://github.com/roadlessdeveloper/roadlessdeveloper.github.io.git`
 2. Change branch `git checkout site-src`
 2. Enter the folder: `cd roadlessdeveloper.github.io/`
 3. Install Ruby gems: `bundle install`
