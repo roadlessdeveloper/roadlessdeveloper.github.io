@@ -1,0 +1,51 @@
+---
+layout: page
+title: Contacto
+---
+
+<!-- <form method="POST" action="https://roadlessdeveloper.herokuapp.com/contact"> -->
+<form>
+    <div>
+        <label for="email">Email</label>
+        <input type="text" name="from" id="from" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" title="Ingrese un email valido" required>
+        <label for="subject">Asunto</label>
+        <input type="text" name="subject" id="subject" required>
+        <label for="body">Mensaje</label>
+        <textarea name="body" id="body" cols="30" rows="10" required></textarea>
+    </div>
+    <div style="text-align: right;">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+        <input name="submit" type="submit" value="Enviar">
+    </div>    
+</form>
+<script>
+    window.addEventListener('load', function(){
+        const form = document.querySelector('form');
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            document.getElementsByClassName("spinner")[0].style.display = "inline";
+            let data = new FormData(form);
+            fetch("https://roadlessdeveloper.herokuapp.com/contact", {
+                method: 'POST',
+                body: data,
+                mode: 'cors',
+                headers: {
+                    'Access-Control-Allow-Origin':'*'
+                }
+            }).then( response => {
+                return response.text();
+            }).then( texto => {
+                if( texto == 'OK' )
+                    window.location = `${window.location.origin}/contact/success`;
+                else
+                    window.location = `${window.location.origin}/contact/error`;
+            }).catch( error => {
+                window.location = `${window.location.origin}/error`;
+            })
+        })
+    });
+</script>
