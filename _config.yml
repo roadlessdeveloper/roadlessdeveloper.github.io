@@ -1,5 +1,5 @@
 # Build settings
-permalink: /blog/:day/:month/:year/:title/
+permalink: /blog/:month/:day/:year/:title/
 markdown: kramdown
 highlighter: rouge
 plugins: [jekyll-paginate-v2]
